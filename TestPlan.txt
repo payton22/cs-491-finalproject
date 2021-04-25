@@ -1,0 +1,26 @@
+Cyrille Bernabe, Payton Knoch
+CS 491 - Unit and Integration Testing
+2/16/21
+
+In this class activity, we expanded the TicTacToe game so that it uses multiple classes. 
+The new classes created are: BoardClass, PlayerClass, PlayGameClass. In these classes, the
+same functions created in the original TicTacToe class are basically just separated to correspond
+with the new class. For example, in the new Board Class, the constructor initializes a "board" 
+attribute as well as a "currentPlayer" attribute. Some other functions within this Board Class include
+a getter and setter for the "currentPlayer" attribute, and a "display_board" function. 
+In the Player Class, the constructor initializes what type of player is currently playing (X or O), as well
+as a mark_square function. In the Play Game class, the has_winner, play_game, and get_winner functions are
+created. 
+
+As far as our testing plan, we have two types of tests: unit tests and integration tests. For our unit tests,
+we focused on testing each class and it's functions. The Board Class's constructor is tested to make sure that
+there are 3 columns, 3 rows, and each slot on the board is defaulted as empty. The PlayGame class is tested as well.
+The unit tests for this class include a test for each possible win scenario (horizontal, vertical, diagonal), as well
+as a test in the case of a tie. For our integration tests, each class is tested to make sure that it works properly
+in relation to the other classes. The Board class is tested in relation to the Player class to make sure that 
+the "Player" object created in the Board class constructor can properly use it's methods. This is the same for the 
+PlayGame class. The PlayGame class uses a the Board class's Board object, so it's access to the Board object's 
+attributes should be tested as well. Finally, the Player class is tested in relation to the PlayGame class. In the 
+PlayGame class, the Player object must be working correctly in order to ensure that the Player object's methods 
+work properly. For example, the player must switch symbols after every turn, and this is where the Player object's 
+set_player function must be tested.

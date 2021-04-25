@@ -1,3 +1,10 @@
-# cs-491-finalproject
+# CS-491-class-activity-4
+Tic-Tac-Toe Refactor Exercise
 
-<p>This uses the existing tictactoe project and sets up a continuous integration and continuous deployment environment.<p>
+### Problem 1
+Refactor and expand your TicTacToe to use multiple classes.\
+Make sure they are unit tested.
+
+### Problem 2
+Create integration tests, according to your test plan\
+Include a brief description of your test plan as a text document
