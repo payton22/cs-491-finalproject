@@ -1,10 +1,6 @@
-# CS-491-class-activity-4
-Tic-Tac-Toe Refactor Exercise
+# cs-491-finalproject
+One click testing and deployment for the tictactoe activity
 
-### Problem 1
-Refactor and expand your TicTacToe to use multiple classes.\
-Make sure they are unit tested.
+# See "Setup Documentatation" for more details
 
-### Problem 2
-Create integration tests, according to your test plan\
-Include a brief description of your test plan as a text document
+ 
